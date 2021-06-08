@@ -2,7 +2,7 @@ hscoreboard = {
 
 	Settings = {
 	
-	Title = "Mountain Networks",
+	Title = "SERVER NAME",
 
 	BlurBackground = true,
 
@@ -32,16 +32,6 @@ hscoreboard = {
 		["user"] = "User", -- Keep user rank
 	},
 
-	Punishments = {
-
-		KickReason = "Cooldown",
-
-		BanLength = "12h",
-
-		BanReason = "Cooldown ban"
-
-
-	},
 
 
 }
