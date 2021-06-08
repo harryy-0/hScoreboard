@@ -46,19 +46,6 @@ hscoreboard = {
 
 }
 
-
-local hide = {
-	["CTargetID"] = true
-	
-}
-
-hook.Add( "HUDShouldDraw", "HideHUD", function( name )
-	if ( hide[ name ] ) then
-		return false
-	end
-end )
-
-
 function hscoreboard:Activate()
 
 	if IsValid(hscoreboard.Main) then
