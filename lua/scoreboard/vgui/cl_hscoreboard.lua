@@ -97,13 +97,11 @@ end
 
 hook.Add("ScoreboardShow", "ScoreboardActive", function()
 	hscoreboard:Activate()
-	print("g")
 	return true
 end)
 
 hook.Add("ScoreboardHide","ScoreboardDeactive", function()
 	hscoreboard:Dectivate()
-	print("c")
 	return true
 end)
 
